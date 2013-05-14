@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOG HUBs</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <!-- comment looks like this -->
+
+<div class="container">
+
+  <header class="row">
+    <div class="span4">left</div>
+   <div class="span4 offset4">right</div>
+  </header>
+
+<!-- yield is replaced by current view -->
+  <%= yield %>
+
+  <div class="row stuff-lists">
+    <div class="span2">stuff</div>
+    <div class="span2">stuff</div>
+    <div class="span2">stuff</div>
+    <div class="span2">stuff</div>
+    <div class="span2">stuff</div>
+  </div>  
+</div>
+
+
+
+
+</body>
+</html>
