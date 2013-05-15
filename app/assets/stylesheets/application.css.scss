@@ -21,9 +21,32 @@
 }
 
 header {
-  background: green;
-  height: 90px;
+  background: white;
 }
+
+$blue: #4183c4;
+
+.header-links{
+  list-style: none;
+  padding-left: 30px;
+  
+  li {
+    display: inline-block;
+    padding: 18px 10px 10px 15px;
+
+    &:hover a {
+      text-decoration: none;
+      color: $blue;
+    }
+
+    a {
+      color: #444;
+      font-weight: bold;
+
+    }
+  }
+}
+
 .selling-points {
 
   background: yellow;
