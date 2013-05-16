@@ -47,10 +47,28 @@ $blue: #4183c4;
   }
 }
 
-.selling-points {
 
-  background: yellow;
-  height: 130px;
+.selling-points {
+  .selling-point {
+    margin: 40px 20px;
+
+  }
+  div {
+    text-align: center;
+  }
+  img {
+    height: 100px;
+    width: 255px;
+  }
+  .teaser-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+  }
+  .teaser-text {
+    margin: 10px;
+
+  }
 }
 .green-bar {
   background: rgb(249, 220, 232);
